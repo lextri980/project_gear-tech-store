@@ -1,35 +1,54 @@
-# Gear Tech Store
+# <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vercel-icon.png" width="30px" height="30px" alt="GearTech Store" style="vertical-align: middle" /> GearTech Store Project
 
 Gear Tech Store is an e-commerce web application focused on selling technology products including smartphones, PCs, laptops, accessories, and gear. The project provides a modern shopping experience where customers can browse product categories, view detailed item information, and purchase the latest tech devices.
 
-## Project Overview
+## ⭕ Technology
 
-This project is built as a full-stack technology store, combining a front-end shopping interface with a server-side backend. It is designed to showcase a polished product catalog, user-friendly navigation, and a responsive layout suitable for desktop and mobile devices.
+### 💥 _Github_
 
-## Key Features
+- **Develop branch: [[develop]](https://github.com/lextri980/project_gear-tech-store)**
+- **Product branch: [[master]](https://github.com/lextri980/project_gear-tech-store)**
 
-- Product listing for phones, laptops, PCs, and tech accessories
-- Clean and modern user interface
-- Responsive design for desktop and mobile
-- Modular architecture separating client and server code
-- Easy to extend with additional categories and product details
+### 💥 _Frontend - <img src="https://images.icon-icons.com/2148/PNG/512/nextjs_icon_132160.png" width="20px" height="20px" style="vertical-align: middle" /> NextJS_
 
-## Technologies
+> **🔧 Installation & Run**
 
-- Next.js for frontend rendering and routing
-- TypeScript for type-safe development
-- Tailwind CSS / modern CSS tools for styling
-- Separate server folder for backend logic and API handling
+```bash
+$ cd client
+$ pnpm i
+$ pnpm dev
+```
 
-## Folder Structure
+> **📦 Tech Stack**
 
-- `client/` — front-end application and UI pages
-- `server/` — backend logic, APIs, and data management
+- **Core:** [`NextJS (16.1.6)`](https://nextjs.org/) [`ReactJS (19)`](https://reactjs.org/) [`TypeScript (5)`](https://www.typescriptlang.org/)
+- **UI/UX:** [`Tailwind CSS (4)`](https://tailwindcss.com/) [`Material UI (7)`](https://mui.com/) [`Sonner toast (2)`](https://sonner.emilkowal.ski/)
+- **Form:** [`React hook form (7)`](https://www.react-hook-form.com/) [`Zod (4)`](https://zod.dev/)
+- **Global state:** [`Zustand (2)`](https://zustand-demo.pmnd.rs/)
+- **API handler:** [`Tanstack Query (5)`](https://tanstack.com/query/latest)
 
-## Purpose
+---
 
-The goal of Gear Tech Store is to provide a scalable and attractive platform for selling technology items. It is ideal for building a polished online storefront that highlights gadgets, computing devices, and accessories with a professional shopping experience.
+### 💥 _Backend - <img src="https://images.icon-icons.com/2107/PNG/512/file_type_nestjs_icon_130355.png" width="20px" height="20px" style="vertical-align: middle" /> NestJS_
 
-## Getting Started
+> **🔧 Installation & Run**
 
-To develop or run the project locally, install dependencies and start the client application from the `client/` folder. The project structure makes it simple to evolve with real product data, payment integration, and advanced shopping features.
+```bash
+$ cd server
+$ pnpm i
+$ pnpm dev
+```
+
+> **📦 Tech Stack**
+
+- **Core:** [`NextJS (15.3.3)`](https://nextjs.org/) [`ReactJS (19)`](https://reactjs.org/) [`TypeScript (5)`](https://www.typescriptlang.org/)
+- **UI/UX:** [`Tailwind CSS (4)`](https://tailwindcss.com/) [`Material UI (7)`](https://mui.com/) [`Sonner toast (2)`](https://sonner.emilkowal.ski/)
+- **Form:** [`React hook form (7)`](https://www.react-hook-form.com/) [`Zod (4)`](https://zod.dev/)
+- **Global state:** [`Redux toolkit (2)`](https://redux-toolkit.js.org/)
+- **API handler:** [`Redux saga (1)`](https://redux-saga.js.org/)
+
+---
+
+## 📄 License
+
+Author: [@lextri980](https://github.com/lextri980)
