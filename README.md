@@ -1,4 +1,4 @@
-# <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vercel-icon.png" width="30px" height="30px" alt="GearTech Store" style="vertical-align: middle" /> GearTech Store Project
+# <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vercel-icon.png" width="30px" alt="GearTech Store" style="vertical-align: middle" /> GearTech Store Project
 
 Gear Tech Store is an e-commerce web application focused on selling technology products including smartphones, PCs, laptops, accessories, and gear. The project provides a modern shopping experience where customers can browse product categories, view detailed item information, and purchase the latest tech devices.
 
@@ -9,7 +9,7 @@ Gear Tech Store is an e-commerce web application focused on selling technology p
 - **Develop branch: [[develop]](https://github.com/lextri980/project_gear-tech-store)**
 - **Product branch: [[master]](https://github.com/lextri980/project_gear-tech-store)**
 
-### 💥 _Frontend - <img src="https://images.icon-icons.com/2148/PNG/512/nextjs_icon_132160.png" width="20px" height="20px" style="vertical-align: middle" /> NextJS_
+### 💥 _Frontend - <img src="https://images.icon-icons.com/2148/PNG/512/nextjs_icon_132160.png" width="20px" style="vertical-align: middle" /> NextJS_
 
 > **🔧 Installation & Run**
 
@@ -29,14 +29,14 @@ $ pnpm dev
 
 ---
 
-### 💥 _Backend - <img src="https://images.icon-icons.com/2107/PNG/512/file_type_nestjs_icon_130355.png" width="20px" height="20px" style="vertical-align: middle" /> NestJS_
+### 💥 _Backend - <img src="https://images.icon-icons.com/2107/PNG/512/file_type_nestjs_icon_130355.png" width="20px" style="vertical-align: middle" /> NestJS_
 
 > **🔧 Installation & Run**
 
 ```bash
 $ cd server
 $ pnpm i
-$ pnpm dev
+$ pnpm start:dev
 ```
 
 > **📦 Tech Stack**

@@ -4,6 +4,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { APP_PIPE } from '@nestjs/core';
 import { JwtModule } from '@nestjs/jwt';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { AuthModule } from './auth/auth.module';
 import { UserModule } from './user/user.module';
 
 @Module({
@@ -14,12 +15,6 @@ import { UserModule } from './user/user.module';
       cache: true,
       load: [envConfig],
     }),
-    TypeOrmModule.forRootAsync({
-      imports: [ConfigModule],
-      useFactory: (configService: ConfigService) =>
-        createTypeOrmOptions(configService),
-      inject: [ConfigService],
-    }),
     JwtModule.registerAsync({
       global: true,
       imports: [ConfigModule],
@@ -29,6 +24,13 @@ import { UserModule } from './user/user.module';
       }),
       inject: [ConfigService],
     }),
+    TypeOrmModule.forRootAsync({
+      imports: [ConfigModule],
+      useFactory: (configService: ConfigService) =>
+        createTypeOrmOptions(configService),
+      inject: [ConfigService],
+    }),
+    AuthModule,
     UserModule,
   ],
   providers: [

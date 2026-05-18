@@ -18,9 +18,9 @@ export const ResponseUtil = {
   ) => {
     return res.status(200).json({
       success: true,
-      ...(data && { ...data }),
+      ...(data && { data }),
       ...(message && { message }),
-      ...(paginator && { ...paginator }),
+      ...(paginator && { paginator }),
     });
   },
   /**
@@ -33,7 +33,7 @@ export const ResponseUtil = {
   created: <T>(res: Response, data?: T, message?: string) => {
     return res.status(201).json({
       success: true,
-      ...(data && { ...data }),
+      ...(data && { data }),
       ...(message && { message }),
     });
   },
